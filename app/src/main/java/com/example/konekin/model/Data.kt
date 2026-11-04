@@ -8,10 +8,11 @@ data class Data(
     @SerializedName("employee_name")
     val employeeName: String,
     @SerializedName("employee_salary")
-    val employeeName: Int,
+    val employeeSalary: Int,
     @SerializedName("employee_age")
-    val employeeName: Int,
-    @SerializedName("employee_image")
-    val employeeName: String
-
+    val employeeAge: Int,
+    @SerializedName("profile_image")
+    val profileImage: String
 )
+
+
